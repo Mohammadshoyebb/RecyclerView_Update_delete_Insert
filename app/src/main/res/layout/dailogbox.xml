@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="390dp"
+    android:layout_height="370dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:background="#92D2EF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Contact"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:id="@+id/txtv1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit Name"
+        android:background="#fff"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:id="@+id/edtnam"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit Number"
+
+        android:gravity="center"
+        android:background="#fff"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:id="@+id/edtnum"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#fff"
+        android:text="Add"
+        android:layout_marginBottom="20dp"/>
+
+
+</LinearLayout>
